@@ -11,6 +11,6 @@ public class testRangeChecker
     {
       List<Integer> listOfvalues = new ArrayList<Integer>(); 
       Collections.addAll(list, 10, 20, 30, 40); 
-      assertTrue(rangeChecker.get_no_of_readings_from_given_range(listOfvalues,4,5) == 2));
+      assertTrue(RangeChecker.get_no_of_readings_from_given_range(listOfvalues,4,5) == 2));
     }
 }
